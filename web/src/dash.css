@@ -1,0 +1,85 @@
+*,button,input{
+    font-family: Roboto, sans-serif;
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar{
+    margin: 0;
+    padding: 0;
+    
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;  
+    background-color: #07a0c3;
+
+}
+
+.laccan{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: normal;
+    color: white;
+    font-size: 30px;
+}
+.configsair{
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sair{
+    margin: 0;
+    padding-top: 2px;  
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.row{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.lat{
+
+    position: absolute;
+    right: 2px; 
+    top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: lavender;
+
+    height: 90%;
+}
+
+button{
+    padding: 3px;
+
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.country{
+    margin-left: 10px;
+}
